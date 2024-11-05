@@ -1,11 +1,8 @@
-// Game variables - you'll need these to get started
+// Game variables 
 let playerX, playerY;
 let coinX, coinY;
 let obstacleX, obstacleY;
-let obstacleSpeed = 3;  // Starting speed - you can adjust this
-let hits = 0;           // Track number of hits
 let score = 0;
-let gameOver = false;
 
 function setup() {
   createCanvas(400, 400);
