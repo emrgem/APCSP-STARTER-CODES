@@ -3,6 +3,7 @@ let playerX, playerY;
 let coinX, coinY;
 let obstacleX, obstacleY;
 let score = 0;
+let gameOver = false;
 
 function setup() {
   createCanvas(400, 400);
